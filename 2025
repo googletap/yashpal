@@ -1,0 +1,16 @@
+import time
+
+def print_animation(message):
+    for char in message:
+        print(char, end='', flush=True)
+        time.sleep(0.1)
+
+def main():
+    print("\n" + "*" * 50)
+    print_animation("🎉🎊 H A P P Y   N E W   Y E A R   2 0 2 5 🎊🎉\n")
+    print("*" * 50)
+    time.sleep(0.5)
+    print("\nMay your year be filled with joy, success, and happiness! 🎆")
+
+if __name__ == "__main__":
+    main()
